@@ -18,15 +18,15 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency("rails")
-  s.add_dependency("jquery-rails")
-  s.add_dependency("bourbon")
-  s.add_dependency("meta_search")
-  s.add_dependency("devise")
-  s.add_dependency("formtastic")
-  s.add_dependency("inherited_resources")
-  s.add_dependency("kaminari")
-  s.add_dependency("sass"")
-  s.add_dependency("fastercsv")
-  s.add_dependency("arbre")
+  s.add_dependency("rails", "")
+  s.add_dependency("jquery-rails", "")
+  s.add_dependency("bourbon", "")
+  s.add_dependency("meta_search", "")
+  s.add_dependency("devise", "")
+  s.add_dependency("formtastic", "")
+  s.add_dependency("inherited_resources", "")
+  s.add_dependency("kaminari", "")
+  s.add_dependency("sass"", "")
+  s.add_dependency("fastercsv", "")
+  s.add_dependency("arbre", "")
 end
