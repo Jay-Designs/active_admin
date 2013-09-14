@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_dependency("formtastic", "")
   s.add_dependency("inherited_resources", "")
   s.add_dependency("kaminari", "")
-  s.add_dependency("sass"", "")
+  s.add_dependency("sass", "")
   s.add_dependency("fastercsv", "")
   s.add_dependency("arbre", "")
 end
